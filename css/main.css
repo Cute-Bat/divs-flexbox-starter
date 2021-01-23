@@ -96,6 +96,10 @@ textarea {
    ========================================================================== */
 
 
+/* ---- font-family: 'Indie Flower', cursive; ---*/
+/* --- font-family: 'Raleway', sans-serif; ---*/
+
+
 html {
   /* ---- here: set colour for the background of the site --- */
   background-color: #a90635;
@@ -104,10 +108,17 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  font-family: font-family: 'Raleway', sans-serif; 
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  text-align: center;
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size:6em;
 }
 
 .wrapper {
@@ -126,12 +137,10 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  text-align: center;
   align-items: center;
-  color: #fff;
   display: flex;
   line-height: 1.5em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   justify-content: center;
   height: 300px;
   width: 30%;
@@ -143,6 +152,19 @@ body {
 	border-right: dotted yellow;
 	border-left: dotted yellow;
 	border-width: 0.2em;
+}
+
+footer{
+	font-size: 0.6em;
+}
+
+header{
+
+}
+
+
+p{
+  font-size: 2em;
 }
 
 /* ==========================================================================
